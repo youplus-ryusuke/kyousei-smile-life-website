@@ -1,8 +1,0 @@
-AuthUserFile /virtual/scienced/public_html/ksl.youplus.co.jp/.htpasswd
-AuthGroupFile /dev/null
-AuthName "Access Restricted"
-AuthType Basic
-
-<Limit GET POST>
-require valid-user
-</Limit>
